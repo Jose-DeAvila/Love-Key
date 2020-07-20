@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*************************/
+/** ESTILOS PRINCIPALES **/
+/*************************/
+
+.container{
+    margin: 50px auto;
+}
+
+.container .logo{
+    text-align: center;
+}
+
+.formulario form {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    margin: auto;
+}
+
+.botones{
+    margin-top: 50px;
+}
+
+/*************************/
+/***  ESTILOS REGISTRO ***/
+/*************************/
+
+.contenedor{
+    margin-top: 20px;
+}
+
+.contenedor .logo {
+    text-align: center;
+}
+
+.contenedor form .form-group{
+    display: flex;
+    align-items: center;
+}
+
+.form-group label{
+    margin-right: 5px;
+    width: 20%;
+}
+
+.botones-reg{
+    margin-top: 30px;
+}
